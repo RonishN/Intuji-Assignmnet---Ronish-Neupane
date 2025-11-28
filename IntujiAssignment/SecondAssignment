@@ -1,3 +1,4 @@
+{
 int[] numbers={8,7,6,3,1,9};
 int targetNum=10;
 bool isPairFound=false;
@@ -11,5 +12,6 @@ for(int i=0;i<numbers.Length;i++)
       }
 }
 }
-if(!isPairFound)print("Not Found");
+if(!isPairFound)
+  print("Not Found that pair");
 }
