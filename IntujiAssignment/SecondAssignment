@@ -1,0 +1,15 @@
+int[] numbers={8,7,6,3,1,9};
+int targetNum=10;
+bool isPairFound=false;
+for(int i=0;i<numbers.Length;i++)
+{
+  for(int j=i+1;j<numbers.Length;j++)
+{
+    if(numbers[i]+numbers[j]==targetNum){
+        console.WriteLine("Two numbers are " + numbers[i] +" and "+ numbers[j]);
+        isPairFound=true;
+      }
+}
+}
+if(!isPairFound)print("Not Found");
+}
